@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+
+.App {
+  text-align: center;
+  min-height: 100vh;
+  color: #fff;
+}
+.container-master{
+  margin: 10vh auto;
+  max-width: 900px;
+  height: 80vh;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.8);
+  background-color: #0C3A96;
+}
+.logout > button{
+  font-size: 18px;
+  letter-spacing: 1px;
+  padding: 5px 10px;
+  background-color: transparent;
+  font-weight: 700;
+  border: none;
+  color: rgba(255, 255, 255, 0.5);
+}
+header{
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 40px;
+  padding-left: 40px;
+}
+footer{
+  height: 4vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 30px;
+  padding-left: 42px;
+}
+.screen{
+  margin: 40px;
+  height: 40vh;
+  border-radius: 24px;
+}
+main{
+  width: 100%;
+  height: 62vh;
+  display: flex;
+}
+.visor{
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.visor > div > h3,.visor > div > p  {
+  text-align: start;
+  margin: 0px;
+  padding: 0px;
+  padding-left: 20px;
+}
+.visor > div > p {
+  color: #00AEEA;
+} 
+
+
+.visor > div{
+  height: 10vh;
+  width: 100%;
+}
+.options{
+  width: 70%;
+  padding-top: 10vh;
+
+}
+.options > button{
+  height: 90px;
+  width: 45%;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  color: #fff; 
+  background-color: #07B4F5;
+  font-family: 'Nanum Gothic', sans-serif;
+}
+.quick-cash{
+  margin-left: 30%;
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+  background-color: #F7026B;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.quick-cash > button{
+  justify-self: end;
+  text-align: center;
+  font-size: 18px;
+  width: 40%;
+  background-color: transparent;
+  color: #fff;
+  font-size: 18px;
+  letter-spacing: 1px;
+  font-family: 'Nanum Gothic', sans-serif;
+}
+.quick-cash > p{
+  width: 60%;
+  font-weight: 900;
+  font-size: 18px;
+}
+button{
+  cursor: pointer;
+  border: none;
+}
+.logo{
+  font-size: 20px;
+  font-weight: 900;
+}
+.other{
+  background-color: rgba(12, 58, 150, 0.5);
+}
+
+@media only screen and (max-width: 732px){
+    main{
+      margin: 0;
+      border: none;
+    }
+}
